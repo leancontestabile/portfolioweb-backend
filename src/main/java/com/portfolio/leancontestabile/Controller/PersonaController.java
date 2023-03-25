@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/personas")
-@CrossOrigin(origins = "https://frontendleancontestabile.web.app/")
+@CrossOrigin(origins = "https://frontendleancontestabile.web.app")
 /**
  *
  * @author lean
