@@ -12,10 +12,6 @@ import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 
 @Entity
-/**
- *
- * @author lean
- */
 public class Persona {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -83,6 +79,10 @@ public class Persona {
     public void setImg(String img) {
         this.img = img;
     }
+
+    
+    
+    
     
     
 }

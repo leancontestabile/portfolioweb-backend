@@ -14,11 +14,6 @@ import org.springframework.stereotype.Service;
 
 @Service
 @Transactional
-
-/**
- *
- * @author lean
- */
 public class ImpPersonaService {
 
     @Autowired
