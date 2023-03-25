@@ -28,7 +28,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author lean
  */
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://frontendleancontestabile.web.app/")
 @RequestMapping("/skill")
 public class CHys {
 
